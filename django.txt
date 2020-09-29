@@ -1,0 +1,13 @@
+http://127.0.0.1:8000/
+
+to run the server: py -3 manage.py runserver
+
+activate ve : myvenv\Scripts\activate
+deactivate ..
+
+to migrate: python manage.py migrate
+               python manage.py makemigrations        //the used one for models
+   not : we need to change the settings  first vid6
+
+
+to create an admin account : python manage.py createsuperuser
